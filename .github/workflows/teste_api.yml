@@ -42,7 +42,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Step 4 Archive production artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
             name: report
             path: ./results/Report.html
